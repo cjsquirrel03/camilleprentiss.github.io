@@ -1,15 +1,16 @@
-
 .background-video {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 0.7;
+    opacity: 1;
 }
-body{
-    background-color: rgb(26, 33, 168);
+
+body {
+    background-color: #A7A284;
 }
+
 .page-hero {
     position: relative;
     overflow: hidden;
@@ -25,47 +26,47 @@ video[poster] {
     width: 100%;
     height: 100%;
 }
-.MOPI {
-    display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 200px;
-    text-align: center;
-    opacity: 1.0;
-    color: yellow;
-}
 
-.exhibits{
-    background-color: yellow;
-    color: blue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 5px solid blue;
-    border-radius: 50;
-    padding: 20;
-}
-.images-container{
-    flex-direction: row;
+.images-container {
+    flex-direction: column;
     display: flex;
     justify-content: left;
     background-color: aliceblue;
 }
-.images img{
-    width: 200px;
+
+.images img {
+    width: 250px;
+    padding-bottom: 25px;
 }
-.images{
-    color: rgb(60, 54, 223);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.images {
+    color:  #433E0E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(229, 229, 204);
-    padding: 20px;
+    padding: 40px;
+
+    
 }
+.image-words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #7389AE;
+    border-radius: 20px;
+    border-color: #433E0E;
+}
+
 p {
     color: #fff;
     font-size: 3rem;
     cursor: pointer;
     position: relative;
 }
+
 p::after {
     content: '';
     position: absolute;
@@ -73,19 +74,21 @@ p::after {
     left: 0;
     bottom: 0;
     width: 0;
-    background: rgb(62, 33, 166);
+    background: #433E0E;
     transition: width .2s;
 }
 
 p:hover::after {
     width: 100%;
 }
+
 .linkeypoo {
     color: #fff;
     font-size: 3rem;
     cursor: pointer;
     position: relative;
 }
+
 .linkeypoo::after {
     content: '';
     position: absolute;
@@ -93,19 +96,21 @@ p:hover::after {
     left: 0;
     bottom: 0;
     width: 0;
-    background: rgb(18, 35, 141);
+    background: #433E0E;
     transition: width .2s;
 }
 
 .linkeypoo:hover::after {
     width: 100%;
 }
+
 .linkeypoo-container {
     flex-direction: row;
     display: flex;
     justify-content: left;
-    background-color: rgb(101, 165, 208);
+    background-color: #7389AE;
 }
+
 .linkeypoo {
     color: rgb(53, 52, 75);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -115,50 +120,80 @@ p:hover::after {
     background-color: rgb(121, 121, 63);
     padding: 10px;
 }
+
 .tickets-card-parents {
     font-size: 3rem;
     cursor: pointer;
     position: relative;
     color: rgb(53, 52, 75);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: bottom;
     padding: 10px;
-} 
+}
+
 .about-us-card-parents {
     font-size: 3rem;
     cursor: pointer;
     position: relative;
     color: rgb(53, 52, 75);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: bottom;
     padding: 10px;
 }
+
 .concerts-card-parents {
     font-size: 3rem;
     cursor: pointer;
     position: relative;
     color: rgb(53, 52, 75);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: bottom;
     padding: 10px;
 }
+
 .exhibits-card-parents {
     font-size: 3rem;
     cursor: pointer;
     position: relative;
     color: rgb(53, 52, 75);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: bottom;
     padding: 10px;
 }
+
 a {
-    color: rgb(101, 165, 208);
+    color: #7389AE;
+}
+
+.logo {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+.padding {
+    padding-top: 750px;
+}
+.padding2 {
+    padding-top: 200px;
+}
+.recent-exhibitions {
+    color: #7389AE;
+    border: black;
+    border-radius: 5px;
+    text-shadow: #433E0E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
