@@ -67,7 +67,7 @@ video[poster] {
 }
 
 p {
-    color: #fff;
+    color: #e2dada;
     font-size: 3rem;
     cursor: pointer;
     position: relative;
@@ -89,7 +89,7 @@ p:hover::after {
 }
 
 .linkeypoo {
-    color: #fff;
+    color: #d5c8c8;
     font-size: 3rem;
     cursor: pointer;
     position: relative;
@@ -126,7 +126,7 @@ p:hover::after {
     background-color: rgb(121, 121, 63);
     padding: 10px;
 }
-.home-parents {
+.home-card-parents {
     font-size: 3rem;
     cursor: pointer;
     position: relative;
@@ -223,7 +223,7 @@ a {
 .footer {
     background-color: #7389AE;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:aliceblue;
+    color:#433E0E;
     text-align: right;
     display: flex;
     flex-direction: column;
