@@ -275,3 +275,22 @@ a {
     width: 100%;
     padding-top: 50px;
 }
+.exhibition-card-parent{
+    display: flex;
+    flex-direction: column;
+}
+.exhibition1-card {
+    color: #d5c8c8;
+    display: flex;
+    flex-direction: column;
+    background-color: #7389AE;
+    text-align: right;
+}
+.exhibition1-card-parent img{
+    width: 400px;
+    background-color: #7389AE;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
